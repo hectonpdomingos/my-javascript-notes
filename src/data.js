@@ -10,3 +10,11 @@ export const products = [
     {id: 1, name: 'Laptop Qbek 7540', brand: 'Qbek', weight: 2.3, os: 'Windows 7', price: 299, tax: 2.3, qty: 54},
 
 ];
+
+export var presidentsDB = [];
+let db = [
+    {id: 1, name: 'Putin', country: 'Russia', age: 75},
+    {id: 2, name: 'Trump', country: 'USA', age: 70},
+    {id: 3, name: 'Macron', country: 'France', age: 45}
+];
+presidentsDB = db;
